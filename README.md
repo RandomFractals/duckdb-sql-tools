@@ -86,7 +86,7 @@ Also, note in the `sqlite_attach` SQL call statement above we are escaping `\` f
 
 # Demo Data
 
-DuckDB SQL Tools extension github repository contains sample [/data](https://github.com/RandomFractals/sql-duckdb-tools/tree/main/data/chinook/duckdb) folder with `chinook.duckdb` and `chinook.sqlite` database files, csv, json and parquet data files, and some test SQL queries you can try running on this well-known sample database wih our VSCode extension.
+DuckDB SQL Tools extension github repository contains sample [/data](https://github.com/RandomFractals/duckdb-sql-tools/tree/main/data/chinook/duckdb) folder with `chinook.duckdb` and `chinook.sqlite` database files, csv, json and parquet data files, and some test SQL queries you can try running on this well-known sample database wih our VSCode extension.
 
 ![DuckDB SQL Tools Demo Data](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools-data.png?raw=true)
 
