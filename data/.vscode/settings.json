@@ -1,0 +1,19 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 10000,
+      "driver": "DuckDB",
+      "name": "chinook.duckdb",
+      "group": "DuckDB",
+      "database": "${workspaceFolder:data}/chinook/duckdb/chinook.duckdb"
+    },
+    {
+      "previewLimit": 10000,
+      "driver": "DuckDB",
+      "name": "memory.duckdb",
+      "group": "DuckDB",
+      "database": ":memory:"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}
