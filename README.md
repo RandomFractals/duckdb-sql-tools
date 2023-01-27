@@ -8,7 +8,7 @@
 
 [DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) extension enables using [DuckDB](https://duckdb.org/) in [VSCode](https://code.visualstudio.com/) IDE with the popular [SQLTools](https://vscode-sqltools.mteixeira.dev/en/home/) VSCode extension and SQL query editing and processing tools.
 
-![DuckDB SQL Tools](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools.gif)
+![DuckDB SQL Tools](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools.gif?raw=true)
 
 # Features
 
@@ -33,7 +33,7 @@ Install [DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=R
 
 Alternatively, you can install this extension directly in VSCode IDE from Extensions tab (`ctrl+shift+x`) by searching for `DuckDB`.
 
-![DuckDB SQL Tools VSCode Extension Info](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools-extension-info.png)
+![DuckDB SQL Tools VSCode Extension Info](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools-extension-info.png?raw=true)
 
 Users of [VSCodium](https://vscodium.com/) and other VSCode-based IDEs can install DuckDB SQL Tools extension using `.vsix` extension package attached to the Assets section in published [releases](https://github.com/RandomFractals/duckdb-sql-tools/releases) of this extension on Github. Follow [install from .vsix](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix) instructions in your VSCode extensions compatible IDE or online container service to install it.
 
@@ -47,7 +47,7 @@ You can check the list of core and installed DuckDB extensions by running the fo
 select * from duckdb_extensions();
 ```
 
-![DuckDB SQL Tools DuckDB Extensions](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools-duckdb-extensions.png)
+![DuckDB SQL Tools DuckDB Extensions](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools-duckdb-extensions.png?raw=true)
 
 ## DuckDB HTTPFS
 
@@ -55,7 +55,7 @@ DuckDB SQL Tools VSCode extension installs and loads [HTTPFS](https://duckdb.org
 
 Bellow is an example of loading reported Chicago crimes data into in-memory DuckDB instance from a `.parquet` data file hosted in our [Chicago Crimes](https://github.com/RandomFractals/chicago-crimes) data and analytical tools demo Github repository. This example uses implicitly loaded DuckDB HTTPFS extension to query reported Chicago crimes parquet data file with over 210K recorded crime reports, creates a `CrimeReports` table in DuckDB `:memory:` instance from loaded parquet data results, and queries imported data:
 
-![DuckDB SQL Tools HTTPFS](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools-httpfs-data-load.gif)
+![DuckDB SQL Tools HTTPFS](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools-httpfs-data-load.gif?raw=true)
 
 ## DuckDB SQLite Scanner
 
@@ -74,7 +74,7 @@ Use the following SQL `CALL` function to attach SQLite database instance:
 CALL sqlite_attach('E:\\projects\\data\\tools\\duckdb-tools\\data\\chinook\\sqlite\\chinook.sqlite');
 ```
 
-![DuckDB SQL Tools SQLite Scanner](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools-sqlite-scanner.gif)
+![DuckDB SQL Tools SQLite Scanner](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools-sqlite-scanner.gif?raw=true)
 
 ## DuckDB File References
 
@@ -88,7 +88,7 @@ Also, note in the `sqlite_attach` SQL call statement above we are escaping `\` f
 
 DuckDB SQL Tools extension github repository contains sample [/data](https://github.com/RandomFractals/sql-duckdb-tools/tree/main/data/chinook/duckdb) folder with `chinook.duckdb` and `chinook.sqlite` database files, csv, json and parquet data files, and some test SQL queries you can try running on this well-known sample database wih our VSCode extension.
 
-![DuckDB SQL Tools Demo Data](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools-data.png)
+![DuckDB SQL Tools Demo Data](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-sql-tools-data.png?raw=true)
 
 # Limitations
 
@@ -118,7 +118,7 @@ DuckDB SQL Tools extension lets you create in-memory database instances by speci
 
 You can adjust the amount of RAM allocated to VSCode IDE to enable opening large files and load more data into memory. Go to `File -> Preferences -> Settings` and type `files.maxMemoryForLargeFilesMB` in the Setting search field to change it. For example, users with 64GB of RAM can change it to `49152` MB to allow VSCode use 48GB of available memory.
 
-![VSCode Max Memory Setting](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/vscode-max-memory-setting.png)
+![VSCode Max Memory Setting](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/vscode-max-memory-setting.png?raw=true)
 
 # Configuration
 
