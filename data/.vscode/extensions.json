@@ -1,0 +1,7 @@
+{
+  // @see https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
+  "recommendations": [
+    "RandomFractalsInc.duckdb-sql-tools",
+    "PRQL-lang.prql-vscode"
+  ]
+}
