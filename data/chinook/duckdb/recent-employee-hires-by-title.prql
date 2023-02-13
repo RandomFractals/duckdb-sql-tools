@@ -1,0 +1,5 @@
+from employees
+group title (
+  sort hire_date
+  take 1
+)
