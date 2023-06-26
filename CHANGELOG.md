@@ -2,15 +2,24 @@
 
 See [releases](https://github.com/RandomFractals/duckdb-sql-tools/releases) for the `duckdb-sql-tools-x.x.x.vsix` extension package downloads.
 
+## v1.1.0 - [2023-06-26]
+
+- Update DuckDB Sql Tools extension to use DuckDB v0.7.1
+- Update DuckDB Sql Tools demo `chinook.duckdb` file to use DuckDB v0.7.1 storage format
+- Add DuckDB version info, detailed error logging, and DuckDB Pro Tools info to the DuckDB Sql Tools driver and DuckDB connection error message display
+- Update DuckDB SQL Tools `README.md` with new DuckDB v0.7.1 support info
+- Add VS Code SQL and Pro Data Tools info to the public DuckDB Sql Tools extension `README.md`
+- Package and publish DuckDB SQL Tools v1.1.0 with DuckDB v0.7.1 support
+
 ## v1.0.2 - [2023-01-28]
 
 Documentation Update Release.
 
-- Refine DuckDB SQL Tools extension intro, features list, and other doc sections in README.md
+- Refine DuckDB SQL Tools extension intro, features list, and other doc sections in `README.md`
 
 ## v1.0.1 - [2023-01-27]
 
-Minor extension packaging update for the extension gallery banner background color display in VSCode marketplace.
+Minor extension packaging update for the extension gallery banner background color display in VS Code marketplace.
 
 - Add gallery banner color to extension package manifest
 
@@ -18,21 +27,21 @@ Minor extension packaging update for the extension gallery banner background col
 
 Initial Public Preview Release.
 
-- Create duckdb-sql-tools vscode extension package
+- Create `duckdb-sql-tools` vscode extension package
 - Create DuckDB Sql Tools driver base code
-- Create DuckDB sql tools icons
+- Create DuckDB Sql Tools icons
 - Add DuckDB SQL tools demo gif for docs
-- Create DuckDB sql tools driver using NodeJS libraries
-- Add PRQL query examples for the demo db and data files in data folder
-- Add chinook demo db data files in different formats
-- Create DuckDB SQL Tools preview version README.md
+- Create DuckDB Sql Tools driver using NodeJS libraries
+- Add PRQL query examples for the demo DuckDB and data files in data folder
+- Add chinook demo DuckDB data files in different formats
+- Create DuckDB SQL Tools preview version `README.md`
 - Add Random Fractals Inc. license file
 - Allow to create readwrite `:memory:` database connections
-- Add httpfs data loading example
-- Add sample duckdb sql query examples
-- Add better chinook db create sql script with primary keys and indexes
-- Add chinook duckdb Jupyter notebook and create new chinook.duckdb file using duckdb v0.6.1
-- Add VSCode Memory Limit info to Limitations section in vscode extension README.md
+- Add `httpfs` data loading example
+- Add sample DuckDB Sql query examples
+- Add better chinook DuckDB create sql script with primary keys and indexes
+- Add chinook DuckDB Jupyter notebook and create new `chinook.duckdb` file using DuckDB v0.6.1
+- Add VS Code Memory Limit info to Limitations section in extension `README.md`
 - Add additional DuckDB keywords, pragmas, and metadata functions to SQL keywords
-- Add demo data section to vscode extension README.md
-- Package and publish DuckDB Sql Tools v1.0.0 Preview release
+- Add demo data section to extension `README.md`
+- Package and publish `DuckDB Sql Tools v1.0.0` Preview release
