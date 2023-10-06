@@ -2,6 +2,17 @@
 
 See [releases](https://github.com/RandomFractals/duckdb-sql-tools/releases) for the `duckdb-sql-tools-x.x.x.vsix` extension package downloads.
 
+## v1.2.0 - [2023-10-06]
+
+- Update free public DuckDB SQL Tools Preview extension to support DuckDB v0.8.1
+- Update SQL Tools drivers link and screenshot in docs
+- Add DuckDB Pro Tools View Commands demo gif to DuckDB SQL Tools documentation
+- Update PRQL Pro Tools links in DuckDB SQL Tools documentation
+- Update new Markdown SQL Pro Tools info in DuckDB SQL Tools documentation
+- Add new Data Notebook Pro Tools info to DuckDB SQL Tools documentation
+- Update Random Fractals Data Tools and new Pro Data Tools sections in DuckDB SQL Tools documentation
+- Package and publish DuckDB SQL Tools v1.2.0 release with DuckDB v0.8.1 support
+
 ## v1.1.0 - [2023-06-26]
 
 - Update DuckDB Sql Tools extension to use DuckDB v0.7.1

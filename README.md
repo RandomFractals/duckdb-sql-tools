@@ -12,13 +12,13 @@
 
 # Features
 
-[DuckDB](https://duckdb.org/docs/) is an in-process SQL [OLAP](https://en.wikipedia.org/wiki/Online_analytical_processing) database management system that uses vecotrized data engine for optimized analytics and parallel query processing with extensive SQL support and direct `Parquet`, `CSV`, and `JSON` data loading and query capabilites for local and remote data sources.
+[DuckDB](https://duckdb.org/docs/) is an in-process SQL [OLAP](https://en.wikipedia.org/wiki/Online_analytical_processing) database management system that uses vectorized data engine for optimized analytics and parallel query processing with extensive SQL support and direct `Parquet`, `CSV`, and `JSON` data loading and query capabilites for local and remote data sources.
 
-[DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) *Peview* extension v1.1.0 adds the following basic DuckDB SQL capabilities to VS Code IDE for working with DuckDB instances:
+[DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) *Peview* extension v1.2.0 adds the following basic DuckDB SQL capabilities to VS Code IDE for working with DuckDB instances:
 
-- **Connect** to a local DuckDB v0.7.1 instance
+- **Connect** to a local DuckDB v0.8.1 instance
 - **Create** new in-memory DuckDB instance
-- **View** DuckDB v0.7.1 tables, columns, and views
+- **View** DuckDB v0.8.1 tables, columns, and views
 - **Run** SQL queries on open DuckDB connections
 - **Attach** SQLite database files to in-memory DuckDB instances
 - **Query** remote `CSV` and `Parquet` data files with [DuckDB HTTPFS](https://duckdb.org/docs/extensions/httpfs.html) extension
@@ -57,38 +57,39 @@ The following sections provide a summary of the popular SQL Tools VS Code extens
 
 ### SQL Tools Drivers
 
-SQL Tools support many popular databases via the [official and community database drivers](https://github.com/mtxr/vscode-sqltools#supported-databases) you can install and use in VS Code IDE from VS Code Marketplace [SQL Tools drivers](https://marketplace.visualstudio.com/search?term=tag%3Asqltools-driver&target=VSCode&category=All%20categories&sortBy=PublishedDate) page.
+SQL Tools support many popular databases via the [official and community database drivers](https://github.com/mtxr/vscode-sqltools#supported-databases) you can install and use in VS Code IDE from VS Code Marketplace [SQL Tools drivers](https://marketplace.visualstudio.com/search?term=tag%3Asqltools-driver&target=VSCode&category=All%20categories&sortBy=Rating) page.
 
 ![SQL Tools Drivers](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/sql-tools-drivers.png?raw=true)
 
 ## Random Fractals Data Tools
 
-Our [Random Fractals](https://twitter.com/search?q=(%23RandomFractalsInc)%20(from%3ATarasNovak)&src=typed_query&f=top) Inc. [**Data Tools**](https://twitter.com/search?q=(%23DataTools)%20(from%3ATarasNovak)&src=typed_query) 🛠️ is a collection of public data visualization extensions, viewers, notebook renderers, and code snippets for devs and data scientists using VS Code IDE, published under our [Random Fractals Inc.](https://marketplace.visualstudio.com/publishers/RandomFractalsInc) ☂️ org.
+[Random Fractals](https://twitter.com/search?q=(%23RandomFractalsInc)%20(from%3ATarasNovak)&src=typed_query&f=top) Inc. [**Data Tools**](https://twitter.com/search?q=(%23DataTools)%20(from%3ATarasNovak)&src=typed_query) 🛠️ is a collection of public [data visualization extensions](https://marketplace.visualstudio.com/search?term=dataViz&target=VSCode&category=All%20categories&sortBy=Relevance), [data viewers](https://marketplace.visualstudio.com/search?term=data%20viewer&target=VSCode&category=All%20categories&sortBy=Relevance), VS Code [Notebook renderers](https://marketplace.visualstudio.com/search?term=notebook%20renderer&target=VSCode&category=All%20categories&sortBy=Relevance), and [code snippets](https://marketplace.visualstudio.com/search?term=Random%20Fractals%20code%20snippets&target=VSCode&category=All%20categories&sortBy=Relevance) for devs and data scientists using VS Code IDE, published under our [Random Fractals Inc.](https://marketplace.visualstudio.com/publishers/RandomFractalsInc) ☂️ org.
 
 ![Random Fractals Data Tools](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/random-fractals-data-tools.png?raw=true)
 
-
 ## Pro Data Tools
 
-**Pro Data Tools** is a new premium set of of custom query and data view VS Code extensions created for our monthly [**Pro sponsors**](https://github.com/sponsors/RandomFractals/sponsorships?sponsor=RandomFractals&tier_id=18884) on github, and can be viewed as an extension pack to enhance SQL development and runtime workflow connected to the different database management systems via SQL Tools extension and database plugins.
+**Pro Data Tools** is a new Premium set of SQL and [PRQL](https://prql-lang.org/) Code Lenses and Data Viewers created for our monthly [**Pro sponsors**](https://github.com/sponsors/RandomFractals/sponsorships?sponsor=RandomFractals&tier_id=18884) on GitHub to enhance SQL development and SQL statements execution runtime workflow in VS Code IDE, connected to the different database management systems via [SQL Tools extension](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools), database plugins, and [SQL Tools drivers](https://marketplace.visualstudio.com/search?term=tag%3Asqltools-driver&target=VSCode&category=All%20categories&sortBy=Rating).
+
+![Pro Data Tools](https://github.com/RandomFractals/pro-data-tools/blob/main/docs/images/pro-data-tools.png?raw=true)
 
 ### DuckDB Pro Tools
 
-**Pro Data Tools** include [DuckDB Pro Tools](https://www.linkedin.com/feed/hashtag/?keywords=duckdbpro) extension that adds **advanced** [DuckDB](https://duckdb.org/) SQL, connection features, and DuckDB v0.8 support to VSCode IDE.
+**Pro Data Tools** include [DuckDB Pro Tools](https://www.linkedin.com/feed/hashtag/?keywords=duckdbpro) extension that adds advanced [DuckDB](https://duckdb.org/) connection features and support to VSCode IDE, and provides database schemas display, DuckDB extensions and settings views, information schema and catalog views, SQL query API and user interfaces integrated with the popular SQL Tools extension, SQL query editor, SQL language server, and VS Code data processing tools.
 
 ![DuckDB Pro Tools Views](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-pro-tools-views.gif?raw=true)
 
-The latest version of [DuckDB Pro Tools](https://www.linkedin.com/feed/hashtag/?keywords=duckdbpro) extension adds the following capabilities to VS Code IDE for working with [DuckDB v0.8.0](https://duckdb.org/2023/05/17/announcing-duckdb-080.html) instances:
+The latest version of [DuckDB Pro Tools](https://www.linkedin.com/feed/hashtag/?keywords=duckdbpro) extension adds the following capabilities to VS Code IDE for working with [DuckDB v0.8](https://duckdb.org/2023/05/17/announcing-duckdb-080.html) instances:
 
-- **Connect** to a local DuckDB [v0.8.0](https://github.com/duckdb/duckdb/releases/tag/v0.8.0) instance
+- **Connect** to local DuckDB [v0.8.0](https://github.com/duckdb/duckdb/releases/tag/v0.8.0) and [v0.8.1](https://github.com/duckdb/duckdb/releases/tag/v0.8.1) instances
 - **Create** new in-memory DuckDB instance
 - **Import** local and remote `CSV`, `JSON` and `Parquet` data files into in-memory DuckDB instance for exploratory data analysis (EDA)
-- **View** DuckDB v0.8.0 databases, schemas, tables, columns, views, indexes, sequences, extensions, settings, functions, types and keywords in SQL Tools Connections Explorer
+- **View** DuckDB v0.8.1 databases, schemas, tables, columns, views, indexes, sequences, extensions, settings, functions, types and keywords in SQL Tools Connections Explorer
 - **Run** SQL queries on active DuckDB connections
 - **Attach** SQLite database files to in-memory DuckDB instances to run analytical queries
 - **Query** remote `CSV`, `Parquet`, and `JSON` data files with [DuckDB HTTPFS](https://duckdb.org/docs/extensions/httpfs.html) extension and new [DuckDB JSON](https://duckdb.org/2023/03/03/json.html) extension
 - **Create** in-memory DuckDB tables from remote data sources and query results
-- **Manage** DuckDB v0.8.0 connections in SQL Tools Connections Explorer
+- **Manage** DuckDB v0.8.1 connections in SQL Tools Connections Explorer
 - **Auto-complete** SQL keywords, DuckDB instance table names, column names, and view names for active DuckDB connections in VS Code SQL editor
 - **Save** named SQL query Bookmarks
 - **Use** SQL Query History
@@ -96,25 +97,49 @@ The latest version of [DuckDB Pro Tools](https://www.linkedin.com/feed/hashtag/?
 - **Use** [PRQL Code Lens](https://github.com/RandomFractals/prql-pro-tools#prql-code-lens) from our new [PRQL Pro Tools](https://twitter.com/search?q=(%23PRQLProTools)%20(from%3ATarasNovak)&src=typed_query&f=live) collection to generate and run SQL queries on active DuckDB connection
 - **Explore** new [`employees.duckdb`](https://github.com/RandomFractals/duckdb-pro-tools/tree/main/data/employees) demo data, PRQL and SQL sample queries
 - **Run** sample [`chicago-crimes`](https://github.com/RandomFractals/duckdb-pro-tools/tree/main/data/chicago-crimes) and [`gbif-observations`](https://github.com/RandomFractals/duckdb-pro-tools/tree/main/data/gbif-observations) [PRQL](https://prql-lang.org/) and SQL queries on Github and AWS S3 hosted `parquet` data files
-- **Use** new `DuckDB Tools` views and metadata shortcut commands from VS Code `Command Palette...`
+- **Use** over 30 new `DuckDB Tools` [views and metadata shortcut commands](https://github.com/RandomFractals/pro-data-tools/blob/main/duckdb-tools.md#duckdb-view-commands) from VS Code `Command Palette...`
+
+### DuckDB Pro Tools View Commands
+
+![DuckDB Pro Tools View Commands](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-pro-tools-view-commands.gif?raw=true)
 
 ### PRQL Pro Tools
 
-Our [**Pro**](https://github.com/sponsors/RandomFractals/sponsorships?sponsor=RandomFractals&tier_id=18884) sponsors on github also get access to the premium [PRQL Pro Tools](https://www.linkedin.com/feed/hashtag/?keywords=prqlprotools) VS Code extension. The initial private beta release of **PRQL Pro Tools** comes with custom [PRQL Code Lens](https://twitter.com/search?q=%23PRQLCodeLens&src=typed_query&f=live) SQL Tools plugin that allows you to run [PRQL](https://prql-lang.org/) queries for the supported PRQL target [SQL dialects](https://prql-lang.org/book/language-features/target.html#supported-dialects) directly using any of the supported SQL Tools extension drivers for the different database management systems.
+Our [**Pro**](https://github.com/sponsors/RandomFractals/sponsorships?sponsor=RandomFractals&tier_id=18884) sponsors on github also get access to the premium [PRQL Pro Tools](https://www.linkedin.com/feed/hashtag/?keywords=prqlprotools) VS Code extension. The initial private beta release of **PRQL Pro Tools** comes with custom [PRQL Code Lens](https://twitter.com/search?q=%23PRQLCodeLens&src=typed_query&f=live) SQL Tools plugin that allows you to run [PRQL](https://prql-lang.org/) queries for the supported PRQL target [SQL dialects](https://prql-lang.org/book/project/target.html#dialects) directly using any of the supported SQL Tools extension drivers for the different database management systems.
 
 ![PRQL Pro Tools Code Lens](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/prql-code-lens-pro-tools.gif?raw=true)
 
 ## Markdown SQL Pro Tools
 
-Recently released private beta of [**Markdown SQL Pro Tools**](https://www.linkedin.com/feed/hashtag/?keywords=markdownsqlprotools) comes with `Select SQL code`, `Execute SQL statement` and `Execute All SQL statements` code lenses. Our Markdown SQL Code Lenses allow you to run SQL queries from your `.md` markdown documents and `sql` code blocks in those documents **directly** against any of the supported SQL Tools database management systems.
+Recently released private beta of [**Markdown SQL Pro Tools**](https://www.linkedin.com/feed/hashtag/?keywords=markdownsqlprotools) add custom SQL [Code Lenses](https://code.visualstudio.com/api/language-extensions/programmatic-language-features#codelens-show-actionable-context-information-within-source-code) to SQL code blocks in standard SQL and various markdown documents in VS Code IDE.
 
-![Markdown SQL Pro Tools](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/markdown-sql-pro-tools.gif?raw=true)
+The provided **SQL Code Lenses** include top-level SQL and markdown document `Execute All`, `Select All`, `Extract All`, `Bookmark All` SQL code lenses, `Execute`, `Select`, and `Copy` SQL code block lenses, and `Create` New SQL document from SQL code block lens.
 
-## Markdown SQL Pro Tools Notebook
+ Our **SQL Code Lenses** integrate with the popular [SQL Tools](https://vscode-sqltools.mteixeira.dev/en/home/) Connections manager, supported [SQL Tools drivers](https://marketplace.visualstudio.com/search?term=tag%3Asqltools-driver&target=VSCode&category=All%20categories&sortBy=PublishedDate), and query results viewer to execute SQL **directly** on any of the supported SQL Tools database management systems and view results.
 
-Future versions of **Markdown SQL Pro Tools** will include new custom **Data Notebook** extension integrated with SQL Tools extension, supported database management systems, our [Data Table Renderers](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.vscode-data-table) and VS Code Notebooks user interface to view and run SQL queries from `.sql` files and `.md` markdown documents with `sql` code blocks using native VS Code Notebook View similar to this PRQL notebook example.
+![Markdown SQL Pro Tools](https://github.com/RandomFractals/pro-data-tools/blob/main/docs/images/markdown-sql-pro-tools-v1.1.0.gif?raw=true)
 
-![Markdown SQL Pro Tools Notebook](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/markdown-sql-pro-tools-notebook.png?raw=true)
+**Markdodown SQL Pro Tools** extension is available under the new [**Markdown Sql Pro Tools**](https://github.com/sponsors/RandomFractals/sponsorships?sponsor=RandomFractals&tier_id=295482) monthly sponsor subscription on GitHub and also includes access to the [**DuckDB Pro**](https://randomfractals.github.io/pro-data-tools/#duckdb-pro-tools) SQL Tools plugin and [**PRQL Code Lens**](https://randomfractals.github.io/pro-data-tools/#prql-pro-tools) extension from our Premium [**Pro Data Tools**](https://randomfractals.github.io/pro-data-tools/#pro-data-tools) extensions pack.
+
+## Data Notebook Pro Tools
+
+The new [**Data Notebook Pro Tools**](https://twitter.com/search?q=(%23DataNotebooks)%20(from%3ATarasNovak)&src=typed_query) extension from our Premium **Pro Data Tools** extensions pack will be released later this year for our [**Pro sponsors**](https://github.com/sponsors/RandomFractals) on GitHub.
+
+**Data Notebook Pro** extension integrates SQL Tools connections, supported database management systems, our [**Data Table Renderers**](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.vscode-data-table) and VS Code Jupyter Notebook user interface to view and run SQL queries from `.sql` files and `.md` markdown documents with SQL code blocks using native VS Code Notebook View.
+
+![Data Notebook Extension](https://github.com/RandomFractals/pro-data-tools/blob/main/docs/images/data-notebook-extension.png?raw=true)
+
+### Data Notebook SQL Query
+
+Simple example of running SQL query with the new **Data Notebook Pro Tools** extension:
+
+![Data Notebook SQL Query](https://github.com/RandomFractals/pro-data-tools/blob/main/docs/images/data-notebook-sql-query.gif?raw=true)
+
+### Data Notebook Output Rendering
+
+Using different [**Data Table Renderers**](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.vscode-data-table) in the **Data Notebook** created from SQL document with multiple SQL queries:
+
+![Data Notebook Output Rendering](https://github.com/RandomFractals/pro-data-tools/blob/main/docs/images/data-notebook-output-rendering.gif?raw=true)
 
 # DuckDB Extensions
 
@@ -181,13 +206,13 @@ Due to the limited time and minimal development effort invested into building th
 
 ## DuckDB Storage
 
-**DuckDB SQL Tools** *Preview* v1.1.0 release of this extension supports only local database instances created with [DuckDB v0.7.1](https://github.com/duckdb/duckdb/releases/tag/v0.7.1) engine. Database instances and files created with other versions of DuckDB are not supported as they use different compression and storage formats and the structure of `.duckdb` file has been changing as DuckDB engine is evolving.
+**DuckDB SQL Tools** *Preview* v1.2.0 release of this extension supports only local database instances created with [DuckDB v0.8.1](https://github.com/duckdb/duckdb/releases/tag/v0.8.1) engine. Database instances and files created with other versions of DuckDB are not supported as they use different compression and storage formats and the structure of `.duckdb` file has been changing as DuckDB engine is evolving.
 
-Use [DuckDB CLI](https://duckdb.org/docs/api/cli.html) to export data from the older database file versions and create new `.duckdb` file using the latest DuckDB storage implemenation. Read [Announcing DuckDB 0.7.0](https://duckdb.org/2023/02/13/announcing-duckdb-070.html) blog post for more information about DuckDB v0.7.1 storage improvements.
+Use [DuckDB CLI](https://duckdb.org/docs/api/cli.html) to export data from the older database file versions and create new `.duckdb` file using the latest DuckDB storage implemenation. Read [Announcing DuckDB 0.8.0](https://duckdb.org/2023/05/17/announcing-duckdb-080.html) blog post for more information about DuckDB v0.8 storage improvements.
 
-You can use prior [`v1.0.2`](https://github.com/RandomFractals/duckdb-sql-tools/releases/tag/v1.0.2) of this free **DuckDB Sql Tools** *Preview* extension to work with the older DuckDB v0.6.1 files.
+You can use prior [`v1.0.2`](https://github.com/RandomFractals/duckdb-sql-tools/releases/tag/v1.0.2) of this free **DuckDB Sql Tools** *Preview* extension to work with the older DuckDB [v0.6.1](https://github.com/duckdb/duckdb/releases/tag/v0.6.1) files. DuckDB SQL Tools [`v1.1.0`](https://github.com/RandomFractals/duckdb-sql-tools/releases/tag/v1.1.0) supports DuckDB [v0.7.1](https://github.com/duckdb/duckdb/releases/tag/v0.7.1).
 
-The **Premium DuckDB Pro Tools** extension version, available to our [**Pro** sponsors](https://github.com/sponsors/RandomFractals/sponsorships?sponsor=RandomFractals&tier_id=18884) on GitHub, supports the latest DuckDB v0.8 files and features.
+The **Premium** [**DuckDB Pro Tools**](https://github.com/RandomFractals/pro-data-tools/tree/main#duckdb-pro-tools) extension version, available to our [**Pro** sponsors](https://github.com/sponsors/RandomFractals/sponsorships?sponsor=RandomFractals&tier_id=18884) on GitHub, supports the latest DuckDB [v0.8.1](https://github.com/duckdb/duckdb/releases/tag/v0.8.1) files with many advanced SQL Tools features, and will be updated to support the latest DuckDB [v0.9.0](https://github.com/duckdb/duckdb/releases/tag/v0.9.0) storage format and featues soon.
 
 ## Read-Only DuckDB
 
@@ -244,4 +269,4 @@ Please use our public [DuckDB SQL Tools GitHub Discussions](https://github.com/R
 
 Become a [Fan or a Pro Sponsor](https://github.com/sponsors/RandomFractals) of our dev work on this and other [Random Fractals, Inc. code and data viz extensions](https://marketplace.visualstudio.com/publishers/RandomFractalsInc) if you find them useful, educational, or enhancing your daily dataViz dev code workflows and exploratory data analysis experience.
 
-☕️ https://ko-fi.com/dataPixy 💖 https://github.com/sponsors/RandomFractals
+💖 https://github.com/sponsors/RandomFractals
