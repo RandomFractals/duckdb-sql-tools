@@ -2,6 +2,13 @@
 
 See [releases](https://github.com/RandomFractals/duckdb-sql-tools/releases) for the `duckdb-sql-tools-x.x.x.vsix` extension package downloads.
 
+## v1.3.0 - [2023-10-27]
+
+- Update DuckDB SQL Tools and demo DuckDB configs to use new DuckDB v0.9.1 NodeJS libraries
+- Update DuckDB SQL Tools `chinook-duckdb.ipynb` and generated demo `chinook.duckdb` to use DuckDB v0.9.1
+- Update DuckDB SQL Tools documentation with new DuckDB v0.9.1 support info
+- Package and publish DuckDB SQL Tools v1.3.0 with DuckDB v0.9.1 support
+
 ## v1.2.0 - [2023-10-06]
 
 - Update free public DuckDB SQL Tools Preview extension to support DuckDB v0.8.1
