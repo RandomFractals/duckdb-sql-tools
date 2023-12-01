@@ -12,11 +12,11 @@
 
 [DuckDB](https://duckdb.org/docs/) is an in-process SQL [OLAP](https://en.wikipedia.org/wiki/Online_analytical_processing) database management system that uses vectorized data engine for optimized analytics and parallel query processing with extensive SQL support and direct `Parquet`, `CSV`, and `JSON` data loading and query capabilites for local and remote data sources.
 
-[DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) *Preview* extension v1.3.0 adds the following basic DuckDB SQL capabilities to VS Code IDE for working with DuckDB instances:
+[DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) *Preview* extension v1.4.0 adds the following basic DuckDB SQL capabilities to VS Code IDE for working with DuckDB instances:
 
-- **Connect** to a local DuckDB v0.9.1 instance
+- **Connect** to a local DuckDB v0.9.2 instance
 - **Create** new in-memory DuckDB instance
-- **View** DuckDB v0.9.1 tables, columns, and views
+- **View** DuckDB v0.9.2 tables, columns, and views
 - **Run** SQL queries on open DuckDB connections
 - **Attach** SQLite database files to in-memory DuckDB instances
 - **Query** remote `CSV` and `Parquet` data files with [DuckDB HTTPFS](https://duckdb.org/docs/extensions/httpfs.html) extension
@@ -71,6 +71,8 @@ SQL Tools support many popular databases via the [official and community databas
 
 ![Pro Data Tools](https://github.com/RandomFractals/pro-data-tools/blob/main/docs/images/pro-data-tools.png?raw=true)
 
+![SQLite Pro Tools](https://github.com/RandomFractals/pro-data-tools/blob/main/docs/images/sqlite-tools-extension.png?raw=true)
+
 ### DuckDB Pro Tools
 
 **Pro Data Tools** include [DuckDB Pro Tools](https://github.com/RandomFractals/pro-data-tools/blob/main/duckdb-tools.md#duckdb-pro-tools) extension that adds advanced [DuckDB](https://duckdb.org/) connection features and support to VSCode IDE, and provides database schemas display, DuckDB extensions and settings views, information schema and catalog views, SQL query API and user interfaces integrated with the popular SQL Tools extension, SQL query editor, SQL language server, and VS Code data processing tools.
@@ -100,6 +102,12 @@ The latest version of [DuckDB Pro Tools](https://github.com/RandomFractals/pro-d
 ### DuckDB Pro Tools View Commands
 
 ![DuckDB Pro Tools View Commands](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-pro-tools-view-commands.gif?raw=true)
+
+## SQLite Pro Tools
+
+**Pro Data Tools** VS Code extensions also include [**SQLite Pro Tools**](https://github.com/RandomFractals/pro-data-tools/blob/main/sqlite-tools.md). **SQLite Pro Tools** provide over a dozen of common SQLite database shortcut [Commands](https://github.com/RandomFractals/pro-data-tools/blob/main/sqlite-tools.md#commands), display table column data type and primary key indicators, SQLite database [Indexes](https://github.com/RandomFractals/pro-data-tools/blob/main/sqlite-tools.md#indexes), [Modules](https://github.com/RandomFractals/pro-data-tools/blob/main/sqlite-tools.md#modules), [Configuration Settings](https://github.com/RandomFractals/pro-data-tools/blob/main/sqlite-tools.md#configuration-settings) and [Functions](https://github.com/RandomFractals/pro-data-tools/blob/main/sqlite-tools.md#functions).
+
+![SQLite Pro Tools Views](https://github.com/RandomFractals/pro-data-tools/blob/main/docs/images/sqlite-tools.png?raw=true)
 
 ### PRQL Pro Tools
 
@@ -204,13 +212,13 @@ Due to the limited time and minimal development effort invested into building th
 
 ## DuckDB Storage
 
-**DuckDB SQL Tools** *Preview* v1.3.0 release of this extension supports only local database instances created with [DuckDB v0.9.1](https://github.com/duckdb/duckdb/releases/tag/v0.9.1) engine. Database instances and files created with other versions of DuckDB are not supported as they use different compression and storage formats and the structure of `.duckdb` file has been changing as DuckDB engine is evolving.
+**DuckDB SQL Tools** *Preview* v1.4.0 release of this extension supports only local database instances created with [DuckDB v0.9.2](https://github.com/duckdb/duckdb/releases/tag/v0.9.2) engine. Database instances and files created with older minor versions of DuckDB are not supported as they use different compression and storage formats and the structure of `.duckdb` file has been changing as DuckDB engine is evolving.
 
 Use [DuckDB CLI](https://duckdb.org/docs/api/cli.html) to export data from the older database file versions and create new `.duckdb` file using the latest DuckDB storage implemenation. Read [Announcing DuckDB 0.9.0](https://duckdb.org/2023/09/26/announcing-duckdb-090.html) blog post for more information about DuckDB v0.9 storage improvements and new features.
 
 You can use prior [`v1.0.2`](https://github.com/RandomFractals/duckdb-sql-tools/releases/tag/v1.0.2) of this free **DuckDB Sql Tools** *Preview* extension to work with the older DuckDB [v0.6.1](https://github.com/duckdb/duckdb/releases/tag/v0.6.1) files. DuckDB SQL Tools [`v1.1.0`](https://github.com/RandomFractals/duckdb-sql-tools/releases/tag/v1.1.0) supports DuckDB [v0.7.1](https://github.com/duckdb/duckdb/releases/tag/v0.7.1), and DuckDB SQL Tools [`v1.2.0`](https://github.com/RandomFractals/duckdb-sql-tools/releases/tag/v1.2.0) supports DuckDB [v0.8.1](https://github.com/duckdb/duckdb/releases/tag/v0.8.1).
 
-The **Premium** [**DuckDB Pro Tools**](https://github.com/RandomFractals/pro-data-tools/tree/main#duckdb-pro-tools) extension version, available to our [**Pro** sponsors](https://github.com/sponsors/RandomFractals/sponsorships?tier_id=18884) on GitHub, supports DuckDB [v0.8.1](https://github.com/duckdb/duckdb/releases/tag/v0.8.1) files with many advanced SQL Tools features, and will be updated to support the latest DuckDB [v0.9.0](https://github.com/duckdb/duckdb/releases/tag/v0.9.0) storage format and features soon.
+The **Premium** [**DuckDB Pro Tools**](https://github.com/RandomFractals/pro-data-tools/tree/main#duckdb-pro-tools) extension version, available to our [**Pro** sponsors](https://github.com/sponsors/RandomFractals/sponsorships?tier_id=18884) on GitHub, supports DuckDB [v0.8.1](https://github.com/duckdb/duckdb/releases/tag/v0.8.1) files with many advanced SQL Tools features, and will be updated to support the latest DuckDB [v0.9.x](https://github.com/duckdb/duckdb/releases) storage format and features soon.
 
 ## Read-Only DuckDB
 
@@ -227,12 +235,6 @@ You can experiment with writable `:memory:` DuckDB instances in this **DuckDB SQ
 **Note**: only `:memory` DuckDB database instances are open in `read/write` mode in this **DuckDB SQL Tools** *Preview* extension version.
 
 Sign up for the Premium [Pro Data Tools on GitHub](https://github.com/sponsors/RandomFractals/sponsorships?tier_id=18884) to get access to the [**DuckDB Pro Tools**](https://github.com/RandomFractals/pro-data-tools/blob/main/duckdb-tools.md#duckdb-pro-tools) and work with the latest versions of DuckDB files in read and write modes.
-
-## VS Code Memory Limit
-
-You can adjust the amount of RAM allocated to VS Code IDE to enable opening large files and load more data into memory. Go to `File -> Preferences -> Settings` and type `files.maxMemoryForLargeFilesMB` in the Setting search field to change it. For example, users with 64GB of RAM can change it to `49152` MB to allow VS Code use 48GB of available memory.
-
-![VS Code Max Memory Setting](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/vscode-max-memory-setting.png?raw=true)
 
 # Configuration
 

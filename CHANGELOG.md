@@ -2,6 +2,13 @@
 
 See [releases](https://github.com/RandomFractals/duckdb-sql-tools/releases) for the `duckdb-sql-tools-x.x.x.vsix` extension package downloads.
 
+## v1.4.0 - [2023-12-01]
+
+- Update DuckDB SQL Tools to support the latest DuckDB 0.9.2 version
+- Remove VS Code Memory Limit section from DuckDB SQL Tools doc
+- Add new SQLite Pro Tools info to the Pro Data Tools sections in DuckDB SQL Tools `README.md`
+- Package and publish DuckDB SQL Tools v1.4.0 with DuckDB v0.9.2 support
+
 ## v1.3.0 - [2023-10-27]
 
 - Update DuckDB SQL Tools and demo DuckDB configs to use new DuckDB v0.9.1 NodeJS libraries
