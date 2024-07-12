@@ -2,7 +2,7 @@
 
 See [releases](https://github.com/RandomFractals/duckdb-sql-tools/releases) for the `duckdb-sql-tools-x.x.x.vsix` extension package downloads.
 
-## v1.5.0 - [2023-07-12]
+## v1.5.0 - [2024-07-12]
 
 - Convert `BigInt` values and arrays to `Number` in DuckDB `TableData` query results for display in SQL Tools records view
 - Update DuckDB version support message in DuckDB SQL Tools Preview
