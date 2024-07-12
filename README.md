@@ -12,7 +12,7 @@
 
 [DuckDB](https://duckdb.org/docs/) is an in-process SQL [OLAP](https://en.wikipedia.org/wiki/Online_analytical_processing) database management system that uses vectorized data engine for optimized analytics and parallel query processing with extensive SQL support and direct `Parquet`, `CSV`, and `JSON` data loading and query capabilites for local and remote data sources.
 
-[DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) *Preview* extension v1.4.0 adds the following basic DuckDB SQL capabilities to VS Code IDE for working with DuckDB instances:
+[DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) *Preview* extension v1.5.0 adds the following basic DuckDB SQL capabilities to VS Code IDE for working with DuckDB instances:
 
 - **Connect** to a local DuckDB v0.9.2 instance
 - **Create** new in-memory DuckDB instance
@@ -79,17 +79,17 @@ SQL Tools support many popular databases via the [official and community databas
 
 ![DuckDB Pro Tools Views](https://github.com/RandomFractals/duckdb-sql-tools/blob/main/docs/images/duckdb-pro-tools-views.gif?raw=true)
 
-The latest version of [DuckDB Pro Tools](https://github.com/RandomFractals/pro-data-tools/blob/main/duckdb-tools.md#duckdb-pro-tools) extension adds the following capabilities to VS Code IDE for working with [DuckDB v0.8](https://duckdb.org/2023/05/17/announcing-duckdb-080.html) instances:
+The latest version of [DuckDB Pro Tools](https://github.com/RandomFractals/pro-data-tools/blob/main/duckdb-tools.md#duckdb-pro-tools) extension adds the following capabilities to VS Code IDE for working with [DuckDB v0.9](https://duckdb.org/2023/09/26/announcing-duckdb-090.html) instances:
 
-- **Connect** to local DuckDB [v0.8.0](https://github.com/duckdb/duckdb/releases/tag/v0.8.0) and [v0.8.1](https://github.com/duckdb/duckdb/releases/tag/v0.8.1) instances
+- **Connect** to local DuckDB [v0.9.2](https://github.com/duckdb/duckdb/releases/tag/v0.9.2) instances
 - **Create** new in-memory DuckDB instance
 - **Import** local and remote `CSV`, `JSON` and `Parquet` data files into in-memory DuckDB instance for exploratory data analysis (EDA)
-- **View** DuckDB v0.8.1 databases, schemas, tables, columns, views, indexes, sequences, extensions, settings, functions, types and keywords in SQL Tools Connections Explorer
+- **View** DuckDB v0.9.2 databases, schemas, tables, columns, views, indexes, sequences, extensions, settings, functions, types and keywords in SQL Tools Connections Explorer
 - **Run** SQL queries on active DuckDB connections
 - **Attach** SQLite database files to in-memory DuckDB instances to run analytical queries
 - **Query** remote `CSV`, `Parquet`, and `JSON` data files with [DuckDB HTTPFS](https://duckdb.org/docs/extensions/httpfs.html) extension and new [DuckDB JSON](https://duckdb.org/2023/03/03/json.html) extension
 - **Create** in-memory DuckDB tables from remote data sources and query results
-- **Manage** DuckDB v0.8.1 connections in SQL Tools Connections Explorer
+- **Manage** DuckDB v0.9.2 connections in SQL Tools Connections Explorer
 - **Auto-complete** SQL keywords, DuckDB instance table names, column names, and view names for active DuckDB connections in VS Code SQL editor
 - **Save** named SQL query Bookmarks
 - **Use** SQL Query History
@@ -212,19 +212,19 @@ Due to the limited time and minimal development effort invested into building th
 
 ## DuckDB Storage
 
-**DuckDB SQL Tools** *Preview* v1.4.0 release of this extension supports only local database instances created with [DuckDB v0.9.2](https://github.com/duckdb/duckdb/releases/tag/v0.9.2) engine. Database instances and files created with older minor versions of DuckDB are not supported as they use different compression and storage formats and the structure of `.duckdb` file has been changing as DuckDB engine is evolving.
+**DuckDB SQL Tools** *Preview* v1.5.0 release of this extension supports only local database instances created with [DuckDB v0.9.2](https://github.com/duckdb/duckdb/releases/tag/v0.9.2) engine. Database instances and files created with older minor versions of DuckDB are not supported as they use different compression and storage formats and the structure of `.duckdb` file has been changing as DuckDB engine is evolving.
 
 Use [DuckDB CLI](https://duckdb.org/docs/api/cli.html) to export data from the older database file versions and create new `.duckdb` file using the latest DuckDB storage implemenation. Read [Announcing DuckDB 0.9.0](https://duckdb.org/2023/09/26/announcing-duckdb-090.html) blog post for more information about DuckDB v0.9 storage improvements and new features.
 
 You can use prior [`v1.0.2`](https://github.com/RandomFractals/duckdb-sql-tools/releases/tag/v1.0.2) of this free **DuckDB Sql Tools** *Preview* extension to work with the older DuckDB [v0.6.1](https://github.com/duckdb/duckdb/releases/tag/v0.6.1) files. DuckDB SQL Tools [`v1.1.0`](https://github.com/RandomFractals/duckdb-sql-tools/releases/tag/v1.1.0) supports DuckDB [v0.7.1](https://github.com/duckdb/duckdb/releases/tag/v0.7.1), and DuckDB SQL Tools [`v1.2.0`](https://github.com/RandomFractals/duckdb-sql-tools/releases/tag/v1.2.0) supports DuckDB [v0.8.1](https://github.com/duckdb/duckdb/releases/tag/v0.8.1).
 
-The **Premium** [**DuckDB Pro Tools**](https://github.com/RandomFractals/pro-data-tools/tree/main#duckdb-pro-tools) extension version, available to our [**Pro** sponsors](https://github.com/sponsors/RandomFractals/sponsorships?tier_id=18884) on GitHub, supports DuckDB [v0.8.1](https://github.com/duckdb/duckdb/releases/tag/v0.8.1) files with many advanced SQL Tools features, and will be updated to support the latest DuckDB [v0.9.x](https://github.com/duckdb/duckdb/releases) storage format and features soon.
+The **Premium** [**DuckDB Pro Tools**](https://github.com/RandomFractals/pro-data-tools/tree/main#duckdb-pro-tools) extension version, available to our [**Pro** sponsors](https://github.com/sponsors/RandomFractals/sponsorships?tier_id=18884) on GitHub, supports DuckDB [v0.9.2](https://github.com/duckdb/duckdb/releases/tag/v0.9.2) files with many advanced SQL Tools features, and will be updated to support the latest DuckDB [v1.0.0](https://github.com/duckdb/duckdb/releases) storage format and features soon.
 
 ## Read-Only DuckDB
 
 **DuckDB SQL Tools** *Preview* extension opens `.duckdb` database files in `read-only` mode.
 
-The **Premium DuckDB Pro Tools** extension version, available to our [**Pro** sponsors](https://github.com/sponsors/RandomFractals/sponsorships?tier_id=18884) on GitHub, supports opening `.duckdb` files in write mode, provides DuckDB v0.8 support, extended DuckDB connection, schemas, systems objecs, and views display.
+The **Premium DuckDB Pro Tools** extension version, available to our [**Pro** sponsors](https://github.com/sponsors/RandomFractals/sponsorships?tier_id=18884) on GitHub, supports opening `.duckdb` files in write mode, provides DuckDB v0.9 support, extended DuckDB connection, schemas, systems objecs, and views display.
 
 ## In-Memory DuckDB
 

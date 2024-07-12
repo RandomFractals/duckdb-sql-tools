@@ -1,4 +1,4 @@
-Copyright © 2023 Random Fractals, Inc. All rights reserved.
+Copyright © 2024 Random Fractals, Inc. All rights reserved.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
