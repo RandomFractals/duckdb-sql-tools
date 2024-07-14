@@ -212,7 +212,7 @@ Due to the limited time and minimal development effort invested into building th
 
 ## DuckDB Storage
 
-**DuckDB SQL Tools** *Preview* v1.5.0 release of this extension supports only local database instances created with [DuckDB v0.10.2](https://github.com/duckdb/duckdb/releases/tag/v0.10.2) engine. Database instances and files created with older minor versions of DuckDB are not supported as they use different compression and storage formats and the structure of `.duckdb` file has been changing as DuckDB engine is evolving.
+**DuckDB SQL Tools** *Preview* v1.6.0 release of this extension supports only local database instances created with [DuckDB v0.10.2](https://github.com/duckdb/duckdb/releases/tag/v0.10.2) engine. Database instances and files created with older minor versions of DuckDB are not supported as they use different compression and storage formats and the structure of `.duckdb` file has been changing as DuckDB engine is evolving.
 
 Use [DuckDB CLI](https://duckdb.org/docs/api/cli.html) to export data from the older database file versions and create new `.duckdb` file using the latest DuckDB storage implemenation. Read [Announcing DuckDB 0.10.0](https://duckdb.org/2024/02/13/announcing-duckdb-0100.html) blog post for more information about DuckDB v0.10 storage improvements, backward compatibility, and new features.
 
